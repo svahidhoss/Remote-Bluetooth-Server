@@ -3,11 +3,11 @@ import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
 import javax.swing.JProgressBar;
-public class mProgress {
+public class MyProgress {
 	
 	 JProgressBar progressBar;   
 	 
-	    public mProgress(String label, int max)
+	    public MyProgress(String label, int max)
 	    {
 	        JFrame guiFrame = new JFrame();
 	        

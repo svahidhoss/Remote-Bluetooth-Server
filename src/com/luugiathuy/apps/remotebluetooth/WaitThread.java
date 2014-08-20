@@ -38,11 +38,7 @@ public class WaitThread implements Runnable{
 			UUID uuid = new UUID("04c6032b00004000800000805f9b34fc", false);
 			
 //			UUID uuid = new UUID("0000110100001000800000805F9B34FB", false);
-//			System.out.println("0000110100001000800000805F9B34FB");
-//			UUID uuid = new UUID(0x1101);
-			
-//			UUID uuid = new UUID("d0c722b07e1511e1b0c40800200c9a66", false);
-			
+//			UUID uuid = new UUID(0x1101);			
 			System.out.println(uuid.toString());
 			
             String url = "btspp://localhost:" + uuid + ";name=RemoteBluetooth";
